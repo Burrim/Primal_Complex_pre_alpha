@@ -1,0 +1,16 @@
+{
+    "props":{"continuos":false},
+    "list":[
+        {
+            "type": "animation",
+            "id" :"Laser",
+            "src": "wraith-laser",
+            "posOffset":{"x":0,"y":-16},
+            "duration":40,
+            "fullDuration": 40,
+            "repeat":0
+
+        }
+    ]
+}
+

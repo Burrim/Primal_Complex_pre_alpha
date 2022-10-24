@@ -1,0 +1,17 @@
+{
+    "props":{"continuos":false},
+    "list":[
+        {
+            "type": "animation",
+            "id" :"glowingFloor",
+            "src": "particle-glowingFloor_2X",
+            "posOffset":{"x":0,"y":-16},
+            "duration":30,
+            "fullDuration": 60,
+            "yoyo":true,
+            "repeat":-1
+
+        }
+    ]
+}
+

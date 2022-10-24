@@ -1,0 +1,27 @@
+#floatingTextContainer{
+    position: fixed;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: max-content;
+    z-index: 5;
+    opacity: 0;
+}
+.floatingTextLine{
+    display: flex;
+    align-items: center;
+}
+.floatingTextLabel{
+    color: whitesmoke;
+    font-size: 32px;
+}
+.floatingTextImgContainer{
+    height: fit-content;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.floatingTextImg{
+    height: initial
+}

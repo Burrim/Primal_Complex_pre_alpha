@@ -1,0 +1,18 @@
+{
+    "props":{"continuos":false},
+    "list":[
+        {
+            "type": "particle",
+            "id":"Star",
+            "texture": "particle-Halo_001",
+            "lifespan": 300,
+            "scale": { "start":0,"end": 0.5},
+            "alpha": { "start": 1, "end": 0.6 },
+            "rotate": { "min": 0, "max": 360},
+            "quantity": 1,
+            "tint": "0xf21351",
+            "blendMode": "ADD"
+        }
+    ]
+}
+

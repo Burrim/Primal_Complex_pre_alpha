@@ -1,0 +1,19 @@
+{
+    "props": {"continuos":true},
+    "list": [
+        {
+            "id": "Dust",
+            "type":"particle",
+            "texture": "particle-Smoke_Cloud_002",
+            "lifespan": {"min":300,"max":1000},
+            "scale": { "min":0,"max": 0.15},
+            "alpha": { "start": 0, "end": 0.6, "ease":"bounce"  },
+            "rotate": { "min": 0, "max": 360},
+            "speedX":{"min":-100,"max":-25},
+            "speedY":{"min":-0,"max":-50},
+            "quantity": 4,
+            "blendMode": "ADD",
+            "tint":  "0x999999"
+        }
+    ]
+}

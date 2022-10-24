@@ -1,0 +1,18 @@
+{
+    "props":{"continuos":false},
+    "list": [
+        
+        {
+            "id": "Cross",
+            "type":"particle",
+            "texture": "wraith-aoeMarker",
+            "lifespan": 2500,
+            "alpha": {"start" : 0.5, "end":0},
+            "quantity": 1,
+            "scale":  1,
+            "blendMode": "ADD",
+            "tint": "0xf21351",
+            "rotate": 45
+        }
+    ]
+}

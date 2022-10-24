@@ -1,0 +1,32 @@
+{
+    "props":{"continuos":true},
+    "list":[
+        {
+            "type": "particle",
+            "id":"fire",
+            "texture": "fire-Embers2",
+            "lifespan": 100,
+            "scale": 0.2,
+            "alpha": { "start": 0.6, "end": 0 },
+            "speed": { "min": 0, "max": 160 },
+            "quantity": 1,
+            "blendMode": "ADD",
+            "tint": "0xf21351",
+            "frame": [0,1,2,3]
+        },
+        {
+            "type": "particle",
+            "id":"fire",
+            "texture": "fire-Embers2",
+            "lifespan": 100,
+            "scale": 0.02,
+            "alpha": { "start": 0.6, "end": 0 },
+            "speed": { "min": 0, "max": 560 },
+            "quantity": 1,
+            "blendMode": "ADD",
+            "tint": "0xf21351",
+            "frame": [0,1,2,3]
+        }
+    ]
+}
+

@@ -1,0 +1,50 @@
+{
+    "default_idle": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":30}
+    }, 
+    "thrower_idle": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":30}
+    }, 
+    "fodder_idle": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":60}
+    }, 
+    "fodder_walk": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":60}
+    },
+    "thrower_walk": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":60}
+    },
+    "default_walk": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":45}
+    },
+    "default_glide": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":30}
+    },
+    "default_attack": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":30}
+    },
+    "thrower_attack": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":30}
+    },
+    "fodder_attack": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":30}
+    },
+    "thrower_shoot": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":15}
+    }
+	
+	
+	
+	
+}

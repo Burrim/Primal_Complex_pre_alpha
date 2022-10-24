@@ -1,0 +1,75 @@
+{
+    "props":{"continuos":false},
+    "list":[
+        {
+            "type": "particle",
+            "id":"Fire",
+            "texture": "fire-Flame1",
+            "lifespan": 500,
+            "scale": { "start":0.05,"end": 0.15},
+            "alpha": { "start": 1, "end": 0.4 },
+            "speedX":{"min":-250,"max":250},
+            "speedY":{"min":100,"max":-100},
+            "quantity": 5,
+            "blendMode": "ADD",
+            "tint": "0xf21351",
+            "rotate": { "min": 0, "max": 360},
+            "frame" : [0,1,2,3]
+        },
+        {
+            "type": "particle",
+            "id":"Shockwave",
+            "texture": "particle-Shockwave_001",
+            "lifespan": 200,
+            "scale": { "start":0,"end": 0.3},
+            "alpha": { "start": 1, "end": 0.4 },
+            "rotate": { "min": 0, "max": 360},
+            "quantity": 2,
+            "blendMode": "ADD",
+            "tint": "0xf21351"
+        },
+        {
+            "type": "particle",
+            "id":"Star",
+            "texture": "particle-Star_006",
+            "lifespan": 400,
+            "scale": { "start":0,"end": 0.8},
+            "alpha": { "start": 1, "end": 0.5 },
+            "rotate": { "min": 0, "max": 360},
+            "quantity": 1,
+            "blendMode": "ADD",
+            "tint": "0xf21351"
+        },
+        {
+            "type": "particle",
+            "id":"Smoke",
+            "texture": "particle-Smoke_Cloud_002",
+            "lifespan": {"min":20,"max":2000},
+            "scale": { "min":0,"max": 0.4},
+            "alpha": { "start": 0, "end": 0.8 },
+            "rotate": { "min": 0, "max": 360},
+            "speedX":{"min":-150,"max":150},
+            "speedY":{"min":-50,"max":-200},
+            "quantity": 20,
+            "blendMode": "ADD",
+            "tint": "0x222222",
+            "delay": 400
+        }
+        ,{
+            "type": "particle",
+            "id":"Embers",
+            "texture": "fire-Embers1",
+            "lifespan": {"min":500,"max":2000},
+            "scale": { "min":0,"max": 0.4},
+            "alpha": { "start": 0, "end": 0.8 },
+            "rotate": { "min": 0, "max": 360},
+            "speedX":{"min":-150,"max":150},
+            "speedY":{"min":50,"max":-200},
+            "quantity": 10,
+            "blendMode": "ADD",
+            "tint": "0xf21351",
+            "delay": 300
+        }
+    ]
+}
+

@@ -1,0 +1,559 @@
+{
+  "isSofits": true,
+  "name" : "TestProject",
+  "objects": [
+    {
+      "name": "Player Spawn",
+      "data":{
+        "type":"player"
+      },
+      "editorData": {
+        "width" : 32,
+        "height" : 64,
+         "text": "Spawn",
+         "img": "player"
+      }
+    },
+
+    {
+      "name": "Drone Spawn",
+      "data":{
+        "key": "drone",
+        "type": "enemy",
+        "props":{
+          "sprite" : "drone-body",
+          "disabled": false
+        }
+        
+      },
+      "editorData": {
+        "img": "drone",
+        "width" : 32,
+        "height" :32,
+        "text": "Drone"
+      }
+    },
+
+    {
+      "name": "Stationary Sentry",
+      "data":{
+        "key": "turret",
+        "type": "enemy",
+        "props":{"sprite" : "sentry-Sentry_Stationary", 
+        "weaponKey": "stationaryBlast", 
+        "orientation": "right",
+        "disabled": false
+      }
+
+      },
+      "editorData": {
+        "img": "Sentry_Stationary",
+        "width" : 48,
+        "height" :32,
+        "text": "St. Sentry"
+      }
+    },
+
+    {
+      "name": "Laser Sentry",
+      "data":{
+        "key": "turret",
+        "type": "enemy",
+        "props":{
+          "sprite" : "sentry-Sentry_Laser",
+          "weaponKey": "trackingLaser", 
+          "orientation": "right",
+          "disabled": false
+        }
+        
+      },
+      "editorData": {
+        "img": "Sentry_Laser",
+        "width" : 64,
+        "height" :32,
+        "text": "Laser Sentry"
+      }
+    },
+
+    {
+      "name": "Slasher Spawn",
+      "data":{
+        "key": "slasher",
+        "type": "enemy",
+        "props":{
+          "sprite" : "alphaCharacter-Idle",
+          "disabled": false
+        }
+        
+      },
+      "editorData": {
+        "img": "slasher",
+        "width" : 32,
+        "height" :64,
+        "text": "Slasher"
+
+      }
+    },
+
+    {
+      "name": "Thrower Spawn",
+      "data":{
+        "key": "thrower",
+        "type": "enemy",
+        "props":{
+          "sprite" : "alphaCharacter-Idle",
+          "disabled": false
+        }
+        
+      },
+      "editorData": {
+        "img": "thrower",
+        "width" : 32,
+        "height" :64,
+        "text": "Thrower"
+
+      }
+    },
+    {
+      "name": "Fodder Spawn",
+      "data":{
+        "key": "fodder",
+        "type": "enemy",
+        "props":{
+          "sprite" : "alphaCharacter-Idle",
+          "disabled": false
+        }
+        
+      },
+      "editorData": {
+        "img": "fodder",
+        "width" : 32,
+        "height" :64,
+        "text": "Fodder"
+
+      }
+    },
+    {
+      "name": "Wraith Spawn",
+      "data":{
+        "key": "wraith",
+        "type": "enemy",
+        "props":{
+          "sprite" : "wraith-placeholder",
+          "disabled": false,
+          "key":"boss"
+        }
+        
+      },
+      "editorData": {
+        "img": "wraith",
+        "width" :48,
+        "height" :96,
+        "text": "Wraith"
+
+      }
+    },
+    {
+      "name": "Crate",
+      "data":{
+        "key": "crate",
+        "type": "prop",
+        "props":{"sprite" : "props-crate"}
+      },
+      "editorData": {
+        "img": "crate",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+      }
+    },
+
+    {
+      "name": "Energy Tank",
+      "data":{
+        "key": "crate",
+        "type": "prop",
+        "props":{"sprite" : "props-energyTank", "boxType" : "energyTank" }
+      },
+      "editorData": {
+        "img": "energyTank",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+      }
+    },
+
+    
+    {
+      "name": "Light",
+      "data":{
+        "type": "light",
+        "props":{
+          "size": 1000,
+          "color": "0x84e9d0",
+          "intensity": 3,
+          "key": "normal",
+          "disabled": false
+        }
+      },
+      "editorData": {
+        "img": "light",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+    {
+      "name": "Factory Light A.",
+      "data":{
+        "type": "light",
+        "props":{
+          "size": 1000,
+          "color": "0xe7c7b2",
+          "intensity":4,
+          "key": "tower",
+          "disabled": false
+        }
+      },
+      "editorData": {
+        "img": "light",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+    {
+      "name": "White Light",
+      "data":{
+        "type": "light",
+        "props":{
+          "size": 1000,
+          "color": "0xe7c7b2",
+          "intensity":3,
+          "key": "tower",
+          "disabled": false
+        }
+      },
+      "editorData": {
+        "img": "light",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+    {
+      "name": "Sleeping Tower Light",
+      "data":{
+        "type": "light",
+        "props":{
+          "size": 1000,
+          "color": "0xb95e3b",
+          "intensity":3,
+          "key": "tower_sleep",
+          "disabled": false
+        }
+      },
+      "editorData": {
+        "img": "light",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+    {
+      "name": "Health Pickup",
+      "data":{
+        "type":"item",
+        "spriteKey": "props-healthPickup",
+        "props": {
+          "type": "healthPickup",
+          "healAmount": 100
+        }
+      },
+      "editorData": {
+        "width" : 32,
+        "height" : 32,
+         "text": "Health Pickup",
+         "img": "healthPickup"
+      }
+    },
+    {
+      "name": "Energy Pickup",
+      "data":{
+        "type":"item",
+        "spriteKey": "props-energyPickup",
+        "props": {
+          "type": "energyPickup",
+          "healAmount": 500
+        }
+      },
+      "editorData": {
+        "width" : 32,
+        "height" : 32,
+         "text": "Energy Pickup",
+         "img": "energyPickup"
+      }
+    },
+
+    {
+      "name": "Energy Core",
+      "data":{
+        "type":"item",
+        "spriteKey": "props-energyCore",
+        "props": {
+          "type": "energyCore"
+        }
+      },
+      "editorData": {
+        "width" : 32,
+        "height" : 32,
+         "text": "Energy Core",
+         "img": "energyCore"
+      }
+    },
+
+    {
+      "name": "Checkpoint",
+      "data":{
+        "key": "checkpoint",
+        "type": "structur",
+        "props":{"sprite" : "props-energyTank", "type":"checkpoint"}
+      },
+      "editorData": {
+        "img": "crate",
+        "width" : 32,
+        "height" :32,
+        "text": "Checkpoint"
+      }
+    },
+    {
+      "name": "Piston Controller",
+      "data":{
+        "key": "pistonController",
+        "type": "structur",
+        "props": {"sprite" : "props-switch", "type":"pistonController", "target":"target"}
+      },
+      "editorData": {
+        "img": "crate",
+        "width" : 32,
+        "height" :32,
+        "text": "Piston Controller"
+      }
+    },
+    {
+      "name": "Portal",
+      "data":{
+        "key": "portal",
+        "type": "structur",
+        "props":{"sprite" : "portal-turquoise_activating", "type":"portal", "destination":"tower","deactivated":false, "key":"0", "color":"turquoise"}
+      },
+      "editorData": {
+        "img": "portal",
+        "width" : 64,
+        "height" :64,
+        "text": "portal"
+      }
+    },
+    
+    {
+      "name": "Deathzone",
+      "data":{
+        "type": "triggerpoint",
+        "props":{
+          "key": "deathzone"
+        }
+      },
+      "editorData": {
+        "img": "death",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+
+    {
+      "name": "Savezone",
+      "data":{
+        "type": "triggerpoint",
+        "props":{
+          "key": "savezone"
+        }
+      },
+      "editorData": {
+        "img": "event",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+
+    {
+      "name": "Wraith Teleport ",
+      "data":{
+        "type": "wraithTeleport",
+        "props":{
+          "key": "boss"
+        }
+      },
+      "editorData": {
+        "img": "event",
+        "width" : 32,
+        "height" :32,
+        "text": "TP"
+
+      }
+    },
+    {
+      "name": "Wakeup Tower",
+      "data":{
+        "type": "triggerpoint",
+        "props":{
+          "key": "towerWakeup"
+        }
+      },
+      "editorData": {
+        "img": "event",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+
+    {
+      "name": "Portal Checkpoint",
+      "data":{
+        "type": "triggerpoint",
+        "props":{
+          "key": "alphaPortalCheckpoint"
+        }
+      },
+      "editorData": {
+        "img": "event",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+
+    {
+      "name": "Start Boss",
+      "data":{
+        "type": "triggerpoint",
+        "props":{
+          "key": "startBoss"
+        }
+      },
+      "editorData": {
+        "img": "event",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+
+    {
+      "name": "Piston",
+      "data":{
+        "key": "piston",
+        "type": "structur",
+        "props":{"size" : 7, "type":"tower", "tag":"1", "range":18, "duration":180, "controller":false}
+      },
+      "editorData": {
+        "img": "piston",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+      }
+    },
+    {
+      "name": "No Walljump",
+      "data":{
+        "type": "injection",
+        "props":{
+          "key": "noJump"
+        }
+      },
+      "editorData": {
+        "img": "event",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+
+    {
+      "name": "No Quicksave",
+      "data":{
+        "type": "injection",
+        "props":{
+          "key": "noSave"
+        }
+      },
+      "editorData": {
+        "img": "event",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+
+    {
+      "name": "No Drop",
+      "data":{
+        "type": "injection",
+        "props":{
+          "key": "noDrop"
+        }
+      },
+      "editorData": {
+        "img": "event",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+
+    {
+      "name": "Hover Text",
+      "data":{
+        "type": "hoverText",
+        "props":{
+          "targetGroup":"tutorial","targetElement":"move"  
+        }
+      },
+      "editorData": {
+        "img": "event",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    },
+    {
+      "name": "Screen",
+      "data":{
+        "type": "none",
+        "props":{}
+      },
+      "editorData": {
+        "img": "border",
+        "width" : 32,
+        "height" :32,
+        "text": ""
+
+      }
+    }
+  ]
+}

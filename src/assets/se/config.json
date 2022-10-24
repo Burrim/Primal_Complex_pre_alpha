@@ -1,0 +1,57 @@
+{
+    "swing":{
+        "volume":0.2
+    },
+    "jump":{
+        "volume":0.3
+    },
+    "dash": {
+        "volume":0.3
+    },
+    "shoot1": {
+        "volume":0.5
+    },
+    "shield": {
+        "volume":0.5
+    },
+    "impact":{
+        "volume":1
+    },
+    "smallExplosion":{
+        "volume":1
+    },
+    "laser":{
+        "volume":0.6
+    },
+    "pickup":{
+        "volume":0.8
+    },
+    "stepMetal":{
+        "volume":0.3
+    },
+    "piston_start":{
+        "volume":0.3
+    },
+    "piston_move":{
+        "volume":0.3,
+        "loop":true
+    },
+    "piston_stop":{
+        "volume":0.3
+    },
+    "lightningStrike":{
+        "volume":0.2
+    },
+    "gearshift":{
+        "volume":0.3
+    },
+    "fullyCharged":{
+        "volume":0.5
+    },
+    "shieldBreak":{
+        "volume":0.6
+    },
+    "deflect":{
+        "volume":0.5
+    }
+}

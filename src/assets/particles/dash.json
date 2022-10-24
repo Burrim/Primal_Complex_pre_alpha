@@ -1,0 +1,16 @@
+{
+    "props": {"continuos":true},
+    "list": [
+        {
+            "id": "Silhouete",
+            "type":"particle",
+            "texture": "particle-Wind_Shard_002",
+            "lifespan": 500,
+            "alpha": { "start": 1, "end": 0 },
+            "scale": 0.2,
+            "quantity": 2,
+            "blendMode": "ADD",
+            "tint": "0xf21351"
+        }
+    ]
+}

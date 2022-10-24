@@ -1,0 +1,20 @@
+{
+    "props":{"continuos":true},
+    "list": [
+        {
+            "id":"Circle",
+            "type": "particle",
+            "texture": "particle-Smoke_Cloud_002",
+            "lifespan": 500,
+            "alpha": { "start": 1, "end": 0 },
+            "speed": { "min": 0, "max": 160 },
+            "scale":{"min":0.05,"max":0.1},
+            "tint": "0xf21351",
+            "rotate": { "min": 0, "max": 360},
+            "quantity": 1,
+            "blendMode": "ADD",
+            "emitzone" : { "source":[0,0,32,32], "type":"random"}
+        }
+
+    ]
+}

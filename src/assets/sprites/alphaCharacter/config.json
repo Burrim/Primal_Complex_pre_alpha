@@ -1,0 +1,81 @@
+{
+    "AirAttack1": {
+        "load": {"frameWidth": 340,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"AirAttack2": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"AirAttack3": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"Attack1": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"Attack2": {
+        "load": {"frameWidth": 340,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"Attack3": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"Death": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"DeathBlood": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"Fall": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"GetHit": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"Idle": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":40}
+    }, 
+	"Jump": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+    "Crouch": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":40}
+    }, 
+	"Roll": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"Run": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":30}
+    }, 
+	"Slide": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"SlideWall": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    }, 
+	"Walk": {
+        "load": {"frameWidth": 170,  "frameHeight": 170},
+        "animation":{"duration":20}
+    },
+    "Dash": {
+        "load":{"frameWidth": 170,  "frameHeight": 170}
+    }
+
+	
+	
+	
+}

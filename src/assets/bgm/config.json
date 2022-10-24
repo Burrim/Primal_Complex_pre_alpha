@@ -1,0 +1,33 @@
+{
+    "OutsideCalm":{
+        "volume":0.15
+    },
+    "TowerCalm":{
+        "intro": "TowerCalmIntro",
+        "volume":0.2,
+        "introVolume":0.2
+    },
+    "TowerActive":{
+        "intro": "TowerActiveIntro",
+        "volume":0.4,
+        "introVolume":0.4
+    },
+    "Boss":{
+        "volume":0.2
+    },
+    "BossFinale":{
+        "volume":0.3
+    },
+    "Hub":{
+        "volume":0.2
+    },
+    "OutsideFast":{
+        "volume":0.15
+    },
+    "Parcour":{
+        "volume":0.2
+    },
+    "Scrapyard":{
+        "volume":0.15
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "props":{"continuos":false},
+    "list":[
+        {
+            "posOffset":{"x":0,"y":-88},
+            "type": "particle",
+            "id":"lightning",
+            "texture": "particle-Lightning 001",
+            "speedX":{"min":-10,"max":10},
+            "speedY":{"min":-10,"max":-10},
+            "lifespan": 300,
+            "scale": 0.2,
+            "alpha": { "start": 1, "end": 0.4 },
+            "quantity": 3,
+            "blendMode": "ADD",
+            "tint": "0xf21351"
+        },
+        {
+            "id": "Glow",
+            "type":"particle",
+            "texture": "fire-Glow_2",
+            "posOffset":{"x":0,"y":-38},
+            "lifespan": 500,
+            "alpha": {"start" : 1, "end":0},
+            "quantity": 1,
+            "scale":  { "start": 0.3, "end": 0.3 },
+            "blendMode": "ADD",
+            "tint": "0xf21351",
+            "delay":200
+        },
+        {
+            "id": "Embers",
+            "type":"particle",
+            "posOffset":{"x":0,"y":0},
+            "texture": "fire-Embers1",
+            "lifespan": {"min":300, "max":2000},
+            "rotate": { "min": 0, "max": 360},
+            "alpha": {"start" : 1, "end":0},
+            "speedX":{"min":-80,"max":80},
+            "speedY":{"min":-0,"max":-50},
+            "quantity": 15,
+            "scale":  { "min": 0.05, "max": 0.15 },
+            "blendMode": "ADD",
+            "tint": "0xf21351",
+            "frames":[0,1,2,3,4,5,6,7],
+            "delay":200
+        },
+        {
+            "id": "Dust",
+            "type":"particle",
+            "texture": "particle-Smoke_Cloud_002",
+            "lifespan": {"min":300,"max":1000},
+            "scale": { "min":0,"max": 0.15},
+            "alpha": { "start": 0, "end": 0.6, "ease":"bounce"  },
+            "rotate": { "min": 0, "max": 360},
+            "speedX":{"min":-100,"max":100},
+            "speedY":{"min":-0,"max":-50},
+            "quantity": 10,
+            "blendMode": "ADD",
+            "tint":  "0x999999",
+            "delay":400
+        }
+    ]
+}
+

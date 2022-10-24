@@ -1,0 +1,8 @@
+{
+    "Sentry_Stationary": {
+        "load": {"frameWidth": 48,  "frameHeight": 32}
+    }, 
+    "Sentry_Laser": {
+        "load": {"frameWidth": 96,  "frameHeight": 96}
+    }
+}

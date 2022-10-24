@@ -1,0 +1,15 @@
+{
+    "glowingFloor":{
+        "load":{"frameWidth": 32,  "frameHeight": 32}
+    },
+    "glowingFloor_2":{
+        "load":{"frameWidth": 96,  "frameHeight": 32}
+    },
+    "glowingFloor_2X":{
+        "load":{"frameWidth": 96,  "frameHeight": 32}
+    },
+    "orbs":{
+        "load":{"frameWidth":24,"frameHeight":24},
+        "animation":{"duration":40,"yoyo":true,"repeat":-1}
+    }
+}

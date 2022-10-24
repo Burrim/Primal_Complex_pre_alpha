@@ -1,0 +1,70 @@
+{
+    "SlashV1": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    },
+    "SlashV2": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    },
+    "SlashV3": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    },
+    "SlashV4": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV5": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV6": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV7": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV8": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV9": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV10": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV11": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV12": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV13": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV14": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV15": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV16": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    }, 
+    "SlashV17": {
+        "load": {"frameWidth": 256,  "frameHeight": 256},
+        "animation":{"duration":10}
+    } 
+}

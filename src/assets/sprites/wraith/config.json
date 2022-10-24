@@ -1,0 +1,11 @@
+{
+    "laser":{
+        "load": {"frameWidth": 3650,  "frameHeight": 100}
+    },
+    "idle":{
+        "load": {"frameWidth": 64,  "frameHeight": 96},
+        "animation": {"duration":60,"repeat":-1}
+    }
+}
+
+

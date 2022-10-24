@@ -1,0 +1,43 @@
+{
+    "doorOpen":[
+        [
+            {
+                "type": "text",
+                "text": "Somewhere a portal has activated"
+            }
+        ]
+    ],
+
+    "coreRemainder1":[
+        [
+            {
+                "type": "text",
+                "text": "1 Energy Core left"
+            }
+        ]
+    ],
+    "coreRemainder2":[
+        [
+            {
+                "type": "text",
+                "text": "2 Energy Cores left"
+            }
+        ]
+    ],
+    "coreRemainder3":[
+        [
+            {
+                "type": "text",
+                "text": "3 Energy Cores left"
+            }
+        ]
+    ],
+    "coreRemainder4":[
+        [
+            {
+                "type": "text",
+                "text": "4 Energy Cores left"
+            }
+        ]
+    ]
+}

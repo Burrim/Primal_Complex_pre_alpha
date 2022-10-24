@@ -1,0 +1,9 @@
+{
+    "energyCore":{
+        "load": {"frameWidth": 48,  "frameHeight": 48},
+        "animation":{"duration":45, "repeat":-1}
+    },
+    "switch":{
+        "load": {"frameWidth": 32,  "frameHeight": 32}
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "Embers1":{
+        "load":{"frameWidth": 256,  "frameHeight": 256}
+    },
+    "Embers2":{
+        "load":{"frameWidth": 256,  "frameHeight": 256}
+    },
+    "Flame1":{
+        "load":{"frameWidth": 512,  "frameHeight": 512},
+        "animation":{"duration": 20, "repeat":-1, "blendMode":"ADD"}
+        
+    },
+    "Flame2":{
+        "load":{"frameWidth": 256,  "frameHeight": 256}
+    },
+    "Flame3":{
+        "load":{"frameWidth": 512,  "frameHeight": 512}
+    },
+    "Flame4":{
+        "load":{"frameWidth": 256,  "frameHeight": 256}
+    },
+    "Flame5":{
+        "load":{"frameWidth": 512,  "frameHeight": 512},
+        "animation": {"animation":{"duration": 16, "blendMode":"ADD"}}
+    },
+    "Flame6":{
+        "load":{"frameWidth": 256,  "frameHeight": 256}
+    },
+    "Flame7":{
+        "load":{"frameWidth": 256,  "frameHeight": 256}
+    },
+    "Flame8":{
+        "load":{"frameWidth": 256,  "frameHeight": 256}
+    },
+    "Flame9":{
+        "load":{"frameWidth": 256,  "frameHeight": 256}
+    },
+    "Flame10":{
+        "load":{"frameWidth": 256,  "frameHeight": 256}
+    }
+	
+	
+}

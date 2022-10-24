@@ -1,0 +1,56 @@
+{
+    "props":{"continuos":false},
+    "list":[
+        {
+            "type": "particle",
+            "id":"Shockwave",
+            "texture": "particle-Shockwave_001",
+            "lifespan": 200,
+            "scale": { "start":0,"end": 0.2},
+            "alpha": { "start": 1, "end": 0.4 },
+            "rotate": { "min": 0, "max": 360},
+            "quantity": 1,
+            "blendMode": "ADD",
+            "tint": "0xf21351"
+        },
+        {
+            "type": "particle",
+            "id":"Star",
+            "texture": "particle-Star_006",
+            "lifespan": 200,
+            "scale": { "start":0,"end": 0.5},
+            "alpha": { "start": 1, "end": 0.4 },
+            "rotate": { "min": 0, "max": 360},
+            "quantity": 1,
+            "blendMode": "ADD",
+            "tint": "0xf21351"
+        },
+        {
+            "type": "particle",
+            "id":"Smoke",
+            "texture": "particle-Smoke_Cloud_002",
+            "lifespan": {"min":20,"max":500},
+            "scale": { "min":0,"max": 0.2},
+            "alpha": { "start": 0, "end": 0.4 },
+            "rotate": { "min": 0, "max": 360},
+            "speedX":{"min":-150,"max":150},
+            "speedY":{"min":-50,"max":-200},
+            "quantity": 20,
+            "blendMode": "ADD",
+            "tint": "0xf21351",
+            "delay": 300
+        },
+        {
+            "type": "animation",
+            "id" :"animTest",
+            "src": "slash-SlashV1",
+            "duration":30,
+            "fullDuration": 120,
+            "yoyo":true,
+            "repeat":-1,
+            "tint": "0xf21351"
+
+        }
+    ]
+}
+

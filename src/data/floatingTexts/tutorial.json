@@ -1,0 +1,164 @@
+{
+    "move":[
+        [
+            {
+                "type": "image",
+                "keyboard": ["Up","Left","Down","Right"],
+                "gamepad": ["LStick"]
+            },
+            {
+                "type": "text",
+                "text": ": Move"
+            }
+        ]
+    ],
+
+    "jump":[
+        [
+            {
+                "type": "image",
+                "keyboard": ["Space"],
+                "gamepad": ["Gamepad_A"]
+            },
+            {
+                "type": "text",
+                "text": ": Jump"
+            }
+        ],
+        [
+            {
+                "type": "text",
+                "text": "Perform in midair to double jump"
+            }
+        ]
+    ],
+
+    "dash":[
+        [
+            {
+                "type": "image",
+                "keyboard": ["Shift"],
+                "gamepad": ["Gamepad_B"]
+            },
+            {
+                "type": "text",
+                "text": ": hold to dash"
+            }
+        ]
+    ],
+
+    "attack":[
+        [
+            {
+                "type": "image",
+                "keyboard": ["E"],
+                "gamepad": ["Gamepad_X"]
+            },
+            {
+                "type": "text",
+                "text": ": Attack"
+            }
+        ],
+        [
+            {
+                "type": "text",
+                "text": "alternatively"
+            },
+            {
+                "type": "image",
+                "keyboard": ["W","A","S","D"],
+                "gamepad": ["RStick"]
+            }
+            
+        ]
+    ],
+
+    "block":[
+        [
+            {
+                "type": "image",
+                "keyboard": ["Ctrl"],
+                "gamepad": ["Gamepad_Y"]
+            },
+            {
+                "type": "text",
+                "text": ": Block"
+            }
+        ]
+    ],
+
+    "walljump":[
+        [
+            {
+                "type": "image",
+                "keyboard": ["Space"],
+                "gamepad": ["Gamepad_A"]
+            },
+            {
+                "type": "text",
+                "text": ": While touching a wall to walljump"
+            }
+        ]
+    ],
+
+    "drop":[
+        [
+            {
+                "type": "image",
+                "keyboard": ["Down"],
+                "gamepad": ["Down"]
+            },
+            {
+                "type": "text",
+                "text": ": In quick succession to drop trough thin plattforms"
+            }
+        ]
+    ],
+
+    
+    "special":[
+        [
+            {
+                "type": "image",
+                "keyboard": ["Q"],
+                "gamepad": ["Gamepad_RB"]
+            },
+            {
+                "type": "text",
+                "text": ": Tab to shoot, hold to charge"
+            }
+        ]
+    ],
+
+    "noWalljump":[
+        [
+            {
+                "type": "text",
+                "text": "You can't walljump on Swirl Tiles"
+            }
+        ]
+    ],
+
+    "fastFall":[
+        [
+            {
+                "type": "image",
+                "keyboard": ["Down"],
+                "gamepad": ["Down"]
+            },
+            {
+                "type": "text",
+                "text": ": while midair to fastfall"
+            }
+        ]
+    ],
+
+    "projectileSlice":[
+        [
+            {
+                "type": "text",
+                "text": "Enemy Projectiles can be destroyed with a well timed attack"
+            }
+        ]
+    ]
+}

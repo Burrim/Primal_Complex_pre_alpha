@@ -1,0 +1,46 @@
+{
+    "Attack1": {
+        "load": {"frameWidth": 200,  "frameHeight": 150},
+        "animation":{"duration":20}
+    }, 
+    "Attack2": {
+        "load": {"frameWidth": 150, "frameHeight": 150},
+        "animation":{"duration":30}
+    },
+    "Attack3": {
+        "load": {"frameWidth": 250, "frameHeight": 150},
+        "animation":{"duration":15}
+    },
+    "Attack4": {
+        "load": {"frameWidth": 150, "frameHeight": 150},
+        "animation":{"duration":30}
+    },
+    "Death": {
+        "load": {"frameWidth": 150, "frameHeight": 150},
+        "animation":{"duration":30}
+    },
+    "Fall": {
+        "load": {"frameWidth": 150, "frameHeight": 150},
+        "animation":{"duration":30}
+    },
+    "Idle": {
+        "load": {"frameWidth": 150, "frameHeight": 150},
+        "animation":{"duration":30}
+    },
+    "Jump": {
+        "load": {"frameWidth": 150, "frameHeight": 150},
+        "animation":{"duration":30}
+    },
+    "Run": {
+        "load": {"frameWidth": 150, "frameHeight": 150},
+        "animation":{"duration":30}
+    },
+    "Take_Hit": {
+        "load": {"frameWidth": 150, "frameHeight": 150},
+        "animation":{"duration":30}
+    },
+    "Take_Hit_white": {
+        "load": {"frameWidth": 150, "frameHeight": 150},
+        "animation":{"duration":30}
+    }
+}

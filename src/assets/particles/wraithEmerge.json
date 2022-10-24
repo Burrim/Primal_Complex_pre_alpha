@@ -1,0 +1,31 @@
+{
+    "props":{"continuos":false},
+    "list": [
+        
+        {
+            "id": "Glow",
+            "type":"particle",
+            "texture": "fire-Glow",
+            "lifespan": 500,
+            "alpha": {"start" : 1, "end":0},
+            "quantity": 1,
+            "scale":  { "start": 0.2, "end": 0 },
+            "blendMode": "ADD",
+            "tint": "0xf21351"
+        },
+        {
+            "type": "particle",
+            "id":"Smoke",
+            "texture": "particle-Smoke_Cloud_002",
+            "lifespan": {"min":300,"max":2000},
+            "scale": { "min":0,"max": 0.4},
+            "alpha": { "start": 0, "end": 0.6, "ease":"bounce"  },
+            "rotate": { "min": 0, "max": 360},
+            "speedX":{"min":-100,"max":100},
+            "speedY":{"min":-100,"max":100},
+            "quantity": 10,
+            "blendMode": "ADD",
+            "tint": "0xf21351"
+        }
+    ]
+}

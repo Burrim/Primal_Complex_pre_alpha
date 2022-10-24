@@ -1,0 +1,34 @@
+{
+    "turquoise_activating": {
+        "load": {"frameWidth": 64,  "frameHeight": 64},
+        "animation":{"duration":120, "frames":[0,1,2,3,4,5,6,7,8,9]}
+    },
+    "turquoise_swirling": {
+        "load": {"frameWidth": 64,  "frameHeight": 64},
+        "animation":{"duration":120, "repeat":-1,"frames":[0,1,2,3,4,5,6,7,8,9]}
+    },
+    "orange_activating": {
+        "load": {"frameWidth": 64,  "frameHeight": 64},
+        "animation":{"duration":120, "frames":[0,1,2,3,4,5,6,7,8,9]}
+    },
+    "orange_swirling": {
+        "load": {"frameWidth": 64,  "frameHeight": 64},
+        "animation":{"duration":120, "repeat":-1,"frames":[0,1,2,3,4,5,6,7,8,9]}
+    },
+    "red_activating": {
+        "load": {"frameWidth": 64,  "frameHeight": 64},
+        "animation":{"duration":120, "frames":[0,1,2,3,4,5,6,7,8,9]}
+    },
+    "red_swirling": {
+        "load": {"frameWidth": 64,  "frameHeight": 64},
+        "animation":{"duration":120, "repeat":-1,"frames":[0,1,2,3,4,5,6,7,8,9]}
+    },
+    "purple_activating": {
+        "load": {"frameWidth": 64,  "frameHeight": 64},
+        "animation":{"duration":120, "frames":[0,1,2,3,4,5,6,7,8,9]}
+    },
+    "purple_swirling": {
+        "load": {"frameWidth": 64,  "frameHeight": 64},
+        "animation":{"duration":120, "repeat":-1,"frames":[0,1,2,3,4,5,6,7,8,9]}
+    }
+}

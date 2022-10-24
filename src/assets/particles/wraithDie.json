@@ -1,0 +1,58 @@
+{
+    "props":{"continuos":true},
+    "list": [
+        
+        {
+            "type": "particle",
+            "id":"TopWing",
+            "texture": "particle-Smoke_Cloud_002",
+            "lifespan": {"min":300,"max":2000},
+            "scale": { "min":0,"max": 0.4},
+            "alpha": { "start": 0, "end": 0.6, "ease":"bounce"  },
+            "rotate": { "min": 0, "max": 360},
+            "speedX":{"min":100,"max":500},
+            "speedY":{"min":-500,"max":-100},
+            "quantity": 5,
+            "blendMode": "ADD",
+            "tint": "0xf21351"
+        },
+        {
+            "type": "particle",
+            "id":"BottomWing",
+            "texture": "particle-Smoke_Cloud_002",
+            "lifespan": {"min":300,"max":2000},
+            "scale": { "min":0,"max": 0.4},
+            "alpha": { "start": 0, "end": 0.6, "ease":"bounce"  },
+            "rotate": { "min": 0, "max": 360},
+            "speedX":{"min":-500,"max":100},
+            "speedY":{"min":100,"max":500},
+            "quantity": 5,
+            "blendMode": "ADD",
+            "tint": "0xf21351"
+        }
+        ,{
+            "type": "particle",
+            "id":"Electro",
+            "texture": "particle-Lightning 001",
+            "lifespan": {"min":300,"max":1000},
+            "scale": { "min":0,"max": 0.2},
+            "alpha": { "start": 0, "end": 0.6, "ease":"bounce"  },
+            "rotate": { "min": 0, "max": 360},
+            "speedX":{"min":-300,"max":300},
+            "speedY":{"min":-300,"max":300},
+            "quantity": 1,
+            "blendMode": "ADD",
+            "tint": "0xf21351"
+        },
+        {
+            "id": "Glow",
+            "type":"particle",
+            "texture": "fire-Glow",
+            "lifespan": 75,
+            "quantity": 1,
+            "scale":  { "min": 0.25, "max": 0.3 },
+            "blendMode": "ADD",
+            "tint": "0xf21351"
+        }
+    ]
+}
