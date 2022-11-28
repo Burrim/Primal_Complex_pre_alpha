@@ -31,7 +31,7 @@ const createWindow = () => {
   mainWindow.setIcon(path.join(__dirname, '/assets/logo/logo.png'));
   mainWindow.setMenuBarVisibility(false)
   mainWindow.setMenu(null) // just remove default menu of a specific window and not all windows
-  mainWindow.setFullScreen(true);
+  //mainWindow.setFullScreen(true);
 
   mainWindow.on('ready-to-show', function() {
     mainWindow.show();

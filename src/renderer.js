@@ -100,11 +100,13 @@ Object.keys(texts).forEach(key =>{
 
 //Imports all map files
 
+
+/*
 let maps = importAll(require.context(`../src/mapData/maps`, true, /.(png|jpe?g|svg|json)$/));
 Object.keys(maps).forEach(key =>{
   files.maps[key.replace(/.(png|json)/,'')] = maps[key]
 })
-
+*/
 
 // *** PLACEHOLDER ***
 //Since i've not found out a way to increase the memory limit of webpack I need to use this since reading maps with the filesystem doesn't seem to increase the memory load
@@ -112,12 +114,13 @@ Object.keys(maps).forEach(key =>{
 //Checks Directory for Files
 
 
-//let maps = fs.readdirSync("./src/mapData/maps")
+let maps = fs.readdirSync("./src/mapData/maps")
 //let maps = fs.readdirSync("./maps")
+
 maps.forEach(key => {
   //Load individual Files
-  //let map = JSON.parse( fs.readFileSync("./src/mapData/maps/"+key)) 
-  let map = JSON.parse( fs.readFileSync("./maps/"+key))
+  let map = JSON.parse( fs.readFileSync("./src/mapData/maps/"+key)) 
+  //let map = JSON.parse( fs.readFileSync("./maps/"+key))
   files.maps[key.replace(/.(json)/,'')] = map
 })
 
